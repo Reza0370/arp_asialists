@@ -1,0 +1,56 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 92418,
+                "file_path": "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-92418.onnx",
+                "reward": -1.7225729225901887,
+                "creation_time": 1665844981.9548447,
+                "auxillary_file_paths": [
+                    "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-92418.pt"
+                ]
+            },
+            {
+                "steps": 499972,
+                "file_path": "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-499972.onnx",
+                "reward": -1.5567261902615428,
+                "creation_time": 1665845845.4498174,
+                "auxillary_file_paths": [
+                    "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-499972.pt"
+                ]
+            },
+            {
+                "steps": 999952,
+                "file_path": "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-999952.onnx",
+                "reward": -1.5953000091016292,
+                "creation_time": 1665846281.2389927,
+                "auxillary_file_paths": [
+                    "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-999952.pt"
+                ]
+            },
+            {
+                "steps": 1499288,
+                "file_path": "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-1499288.onnx",
+                "reward": -1.7794074527919292,
+                "creation_time": 1665846713.2224867,
+                "auxillary_file_paths": [
+                    "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-1499288.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1499288,
+            "file_path": "results\\test_one_epoch_5000000steps\\KartAgent.onnx",
+            "reward": -1.7794074527919292,
+            "creation_time": 1665846713.2224867,
+            "auxillary_file_paths": [
+                "results\\test_one_epoch_5000000steps\\KartAgent\\KartAgent-1499288.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}
