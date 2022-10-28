@@ -1,0 +1,65 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 3499625,
+                "file_path": "results\\test_game_default_poca\\KartAgent\\KartAgent-3499625.onnx",
+                "reward": -2.0369260377354093,
+                "creation_time": 1666524930.419601,
+                "auxillary_file_paths": [
+                    "results\\test_game_default_poca\\KartAgent\\KartAgent-3499625.pt"
+                ]
+            },
+            {
+                "steps": 3999050,
+                "file_path": "results\\test_game_default_poca\\KartAgent\\KartAgent-3999050.onnx",
+                "reward": -1.5771924199966283,
+                "creation_time": 1666525834.0275047,
+                "auxillary_file_paths": [
+                    "results\\test_game_default_poca\\KartAgent\\KartAgent-3999050.pt"
+                ]
+            },
+            {
+                "steps": 4499453,
+                "file_path": "results\\test_game_default_poca\\KartAgent\\KartAgent-4499453.onnx",
+                "reward": -0.12172735550186851,
+                "creation_time": 1666526753.7533538,
+                "auxillary_file_paths": [
+                    "results\\test_game_default_poca\\KartAgent\\KartAgent-4499453.pt"
+                ]
+            },
+            {
+                "steps": 4999941,
+                "file_path": "results\\test_game_default_poca\\KartAgent\\KartAgent-4999941.onnx",
+                "reward": 0.2698332816362381,
+                "creation_time": 1666553750.8163998,
+                "auxillary_file_paths": [
+                    "results\\test_game_default_poca\\KartAgent\\KartAgent-4999941.pt"
+                ]
+            },
+            {
+                "steps": 5010267,
+                "file_path": "results\\test_game_default_poca\\KartAgent\\KartAgent-5009473.onnx",
+                "reward": -0.05304171331226826,
+                "creation_time": 1666553752.0975232,
+                "auxillary_file_paths": [
+                    "results\\test_game_default_poca\\KartAgent\\KartAgent-5009473.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5010267,
+            "file_path": "results\\test_game_default_poca\\KartAgent.onnx",
+            "reward": -0.05304171331226826,
+            "creation_time": 1666553752.0975232,
+            "auxillary_file_paths": [
+                "results\\test_game_default_poca\\KartAgent\\KartAgent-5009473.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.0+cu111"
+    }
+}

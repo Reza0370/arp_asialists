@@ -2,7 +2,8 @@ behaviors:
   KartAgent:
     trainer_type: sac
     hyperparameters:
-      buffer_init_steps: 0
+      batch_size: 32
+      buffer_size: 1000000
       init_entcoef: 1.0
       save_replay_buffer: false
       tau: 0.005
@@ -17,8 +18,8 @@ behaviors:
         gamma: 0.99
         strength: 1.0
     keep_checkpoints: 5
-    max_steps: 500000000
+    max_steps: 5000000
     time_horizon: 1000
     summary_freq: 12000
-    threaded: true
+    threaded: false
 
